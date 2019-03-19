@@ -1,0 +1,55 @@
+@import '../colors.scss';
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section.clear {
+  opacity: 0;
+}
+
+section.active {
+  opacity: 1;
+}
+
+section.view {
+  transition: opacity 1.5s;
+}
+
+.profile {
+  border-radius: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.emphasized-signature {
+  color: #2ecc71;
+  transition: color 2.5s;
+}
+
+.double {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+
+  div {
+    padding: 5px 0;
+  }
+}
+
+.about {
+  width: 80%;
+  h2 { font-size: 1.9rem; }
+  p { font-size: 1.1rem; }
+}
+
+.emphasized {
+  color: #f1c40f;
+  transition: color 2.5s;
+}

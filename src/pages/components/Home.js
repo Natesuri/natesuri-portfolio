@@ -13,6 +13,25 @@ class Home extends Component {
   // componentDidMount () {}
 
   render () {
+    // temporarily adding 'emphasized' to these className variables until I can apply animation
+    let emphasisOne = 'emphasis-1 emphasized'
+    let emphasisTwo = 'emphasis-2 emphasized'
+    let emphasisThree = 'emphasis-3 emphasized'
+
+    // trying to animate the emphasized class on page load.
+    // will come back to it at a later time.
+    /*
+    setTimeout(() => {
+      emphasisOne += ' emphasized'
+    }, 500)
+    setTimeout(() => {
+      emphasisTwo += ' emphasized'
+    }, 900)
+    setTimeout(() => {
+      emphasisThree += ' emphasized'
+    }, 1500)
+    */
+
     return (
       <section id="about" className='view active'>
         <div className='container'>

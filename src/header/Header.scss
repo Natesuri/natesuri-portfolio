@@ -5,7 +5,7 @@ header {
 }
 
 .signature {
-  color: #ecf0f1;
+  color: $white-font;
   display: flex;
   font-family: 'Montserrat', sans-serif;
   font-size: 80px;
@@ -16,7 +16,7 @@ header {
 }
 
 .my-title {
-  color: #ecf0f1;
+  color: $white-font;
   display: flex;
   font-family: 'Montserrat', sans-serif;
   justify-content: center;

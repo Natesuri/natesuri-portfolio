@@ -1,7 +1,7 @@
 @import '../colors.scss';
 
 header {
-  padding: 100px 0;
+  padding: 156px 0 100px;
 }
 
 .signature {
@@ -32,6 +32,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  position: fixed;
 }
 
 .leftNav {

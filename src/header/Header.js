@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import './Header.scss'
 
 const Header = () => (
-  <header>
+  <React.Fragment>
     <div className='navbar'>
       <nav className='leftNav'>
         <Link to ='/'>Nate Suri</Link>
@@ -17,7 +17,14 @@ const Header = () => (
         <Link to ='/'>Resume</Link>
       </nav>
     </div>
-  </header>
+    <header>
+      <div>
+        <div class='signature'>Nate Suri</div>
+        <div class='w-100'></div>
+        <div class='my-title'>Web Developer && Storyteller</div>
+      </div>
+    </header>
+  </React.Fragment>
 )
 
 export default Header

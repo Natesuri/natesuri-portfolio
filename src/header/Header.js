@@ -11,9 +11,9 @@ const Header = () => (
       </nav>
       <nav className='rightNav'>
         <Link to ='/'>About</Link>
-        <Link to ='/'>Projects</Link>
-        <Link to ='/'>Skills</Link>
-        <Link to ='/'>Contact</Link>
+        <Link to ='/projects'>Projects</Link>
+        <Link to ='/skills'>Skills</Link>
+        <Link to ='/contact'>Contact</Link>
         <Link to ='/'>Resume</Link>
       </nav>
     </div>

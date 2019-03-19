@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route, Link, Redirect } from 'react-router-dom'
 import Header from './header/Header.js'
 import Home from './pages/components/Home.js'
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {

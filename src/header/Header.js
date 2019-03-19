@@ -5,9 +5,18 @@ import './Header.scss'
 
 const Header = () => (
   <header>
-    <nav>
-      <Link to ='/'>Nate Suri</Link>
-    </nav>
+    <div className='navbar'>
+      <nav className='leftNav'>
+        <Link to ='/'>Nate Suri</Link>
+      </nav>
+      <nav className='rightNav'>
+        <Link to ='/'>About</Link>
+        <Link to ='/projects'>Projects</Link>
+        <Link to ='/skills'>Skills</Link>
+        <Link to ='/contact'>Contact</Link>
+        <Link to ='/'>Resume</Link>
+      </nav>
+    </div>
   </header>
 )
 

@@ -187,3 +187,35 @@ section.view {
   width: 100%;
   flex-direction: column;
 }
+
+.contact-blurb {
+  align-self: flex-start;
+  padding: 0 0 0 300px;
+}
+
+.contact {
+  color: #f1c40f;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.email:hover,
+.email:focus {
+  color: #27ae60;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.github:hover,
+.github:focus {
+  color: #9b59b6;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.linkedIn:hover,
+.linkedIn:focus {
+  color: #e74c3c;
+  text-decoration: none;
+  transition: color 0.5s;
+}

@@ -40,13 +40,13 @@ class Home extends Component {
               <img className='profile' src={profile} alt=''/>
             </div>
             <div className='about'>
-              <h2>Howdy! I'm <span className={emphasisOne}>Nate Suri</span>.</h2>
+              <h2>Howdy! {"I'm"} <span className={emphasisOne}>Nate Suri</span>.</h2>
               <p>
-                I’m a <span className={emphasisTwo}>storyteller</span> at heart with a mission to share the story of innovators and difference makers in my community and the world.
+                {"I’m"} a <span className={emphasisTwo}>storyteller</span> at heart with a mission to share the story of innovators and difference makers in my community and the world.
                 My experience in both filmmaking and programming gives me a unique perspective on how to create <span className={emphasisThree}>engaging and creative</span> web experiences.
               </p>
               <p>
-                During my time at General Assembly’s Web Development Immersive bootcamp,
+                During my time at General {"Assembly’s"} Web Development Immersive bootcamp,
                 I built three full stack applications, learning and leveraging technologies
                 like JavaScript, Ruby on Rails, Express, React, HTML, CSS, Git, Sass, MongoDB
                 and PostgreSQL to create those applications.

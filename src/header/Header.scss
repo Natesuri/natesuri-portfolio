@@ -8,7 +8,7 @@ header {
   color: $white-font;
   display: flex;
   font-family: 'Montserrat', sans-serif;
-  font-size: 80px;
+  font-size: 5rem;
   justify-content: center;
   // height: 120px;
   margin: 0 auto;
@@ -19,6 +19,7 @@ header {
   color: $white-font;
   display: flex;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
   justify-content: center;
   margin: 0 auto;
   // padding: 0;
@@ -38,7 +39,7 @@ header {
 .leftNav {
   flex-grow: 1;
   margin: 0 0 0 250px;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 600;
   // width: 50%;
 }
@@ -50,12 +51,11 @@ header {
   flex-grow: 0;
   justify-content: space-around;
   margin: 0 300px 0 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
 a {
   color: $white-font;
   text-decoration: none;
-  // margin: 0 50px;
 }

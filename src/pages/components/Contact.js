@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import '../pages.scss'
 
 const Contact  = () => (
-  <section id="contact" class='view'>
+  <section id="contact" className='view'>
         <div className='container'>
           <div className='contact-blurb'>
             <h2>Contact</h2>

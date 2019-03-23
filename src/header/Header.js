@@ -19,9 +19,9 @@ const Header = () => (
     </div>
     <header>
       <div>
-        <div class='signature'>Nate Suri</div>
-        <div class='w-100'></div>
-        <div class='my-title'>Web Developer && Storyteller</div>
+        <div className='signature'>Nate Suri</div>
+        <div className='w-100'></div>
+        <div className='my-title'>Web Developer && Storyteller</div>
       </div>
     </header>
   </React.Fragment>

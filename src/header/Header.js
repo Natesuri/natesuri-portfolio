@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import PDF from '../images/NateSuriResume.pdf'
 
 import './Header.scss'
 
@@ -14,7 +15,7 @@ const Header = () => (
         <Link to ='/projects'>Projects</Link>
         <Link to ='/skills'>Skills</Link>
         <Link to ='/contact'>Contact</Link>
-        <Link to ='/'>Resume</Link>
+        <a href={PDF} target='_blank'>Resume</a>
       </nav>
     </div>
     <header>
